@@ -1,0 +1,107 @@
+# WhatATheme
+markdown: kramdown
+
+# URL of the Site
+url: ''
+# Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
+baseurl: 
+
+# Title of the Site
+title: Nitwit AB
+# Description of the Site
+description: Allt om Nitwit
+# URL of Image of the Site
+site-image: /assets/images/nitwit_logo_white_bg.png
+# Keywords of the Site
+site-keywords: Nitwit Skrivplaneten
+# URL for the Image of custom Favicon
+favicon-url: 
+
+# URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
+heroimage: /assets/images/image_926_blur.png
+contactimage: /assets/images/image_886_blur.png
+
+# Social Media and Contact
+# If you don't want to use any icon, you can leave them blank.
+email: info@nitwit.se
+facebook_username: nitwit.se
+#twitter_username: thedevslot
+#instagram_username: thedevslot
+linkedin_username: nitwit-ab
+github_username:  nitwit-se
+#youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
+#reddit_username: /
+#behance_username: /
+#dribbble_username: /
+#spotify_username: /
+
+# Google Analytics
+# google-analytics: UA-163806439-1
+
+# Disqus
+# disqus-shortname: thedevslot
+
+# Name of the Author
+author-name: Nitwit AB | Skrivplaneten
+# URL for the Image of the Author
+author-image: /assets/images/frida3.png
+# 60 Words About the Author
+author-about: Årstavägen 9, <br/>120 50 ÅRSTA
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author-url: https://github.com/thedevslot
+
+# Name of the Author
+author2-name: TheDevsLot
+# URL for the Image of the Author
+author2-image: /assets/images/mark.png
+# 60 Words About the Author
+author2-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+# URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
+author2-url: https://github.com/thedevslot
+
+# SASS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Build settings
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+
+# Permalink
+permalink: "blog/:title"
+
+# Compress
+compress_html:
+  clippings: all
+
+# Defaults
+defaults:
+  -
+    scope:
+      type: 'posts'
+    values:
+      layout: post
+      post-image: ""
+      description: ""
+      tags:
+        - ""
+  -
+    scope:
+      type: 'pages'
+    values:
+      layout: page
+
+# Exclude
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

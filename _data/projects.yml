@@ -1,0 +1,20 @@
+- name: Skrivplaneten
+  link: https://skrivplaneten.se
+  image: /assets/images/skrivplaneten.png
+  description: Vår egen site! Här hittar du innehåll som hjälper dig att utforska och utveckla din kommunikation – genom skrivande och personlig storytelling.
+- name: ClimateView
+  image: /assets/images/climateview.png
+  link: https://climateview.global
+  description: The world’s first Model-as-a-Service (MaaS) designed to help cities plan, understand, and visualize the shifts necessary to address the urgent climate crisis
+- name: Motivation.se
+  link: https://motivation.se
+  image: /assets/images/motivation.png
+  description: Sveriges ledande sajt för att utmana, inspirera och utbilda dagens och morgondagens ledare.
+- name: NextLVL
+  link: https://www.nextlvl.se
+  image: /assets/images/nextlvl-logo.png
+  description: NextLVL är ett LMS - Learning Management System - en komplett lösning för att bygga, marknadsföra, sälja och genomföra kurser digitalt.
+- name: InsureEd
+  link: https://www.insureed.se/
+  image: /assets/images/insureed.png
+  description: InsureEd är ett nystartat utbildningsbolag inriktat mot försäkring för försäkringsbranschen. Vår vision är en stärkt försäkringsbransch genom kompetenta kollegor.
